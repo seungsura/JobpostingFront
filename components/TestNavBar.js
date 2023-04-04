@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import Head from 'next/head';
 
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+
 function Navbar (){
     const HandlelogoClick = () => {
         window.scrollTo({ top : 0, behavior: 'smooth'});
@@ -28,6 +30,8 @@ function Navbar (){
           {/* 오른쪽 요소에 들어갈 내용 */}
         </div>
       </div>
+
+      
 
       <style jsx>{`
         nav {
